@@ -5,7 +5,7 @@
   "main": "test.js",
   "scripts": {
     "test": "tape './test.js'",
-    "coverage": "istanbul cover ./test.js"
+    "coverage": "istanbul cover test.js && cat ./coverage/lcov.info | ./node_modules/.bin/codecov"
   },
   "repository": {
     "type": "git",
