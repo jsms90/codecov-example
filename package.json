@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/jsms90/codecov-example#readme",
   "devDependencies": {
-    "codecov.io": "^0.1.6",
     "istanbul": "^0.4.5",
-    "tape": "^4.6.2"
+    "tape": "^4.6.2",
+    "codecov": "^1.0.1"
   }
 }
