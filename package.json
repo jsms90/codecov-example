@@ -5,7 +5,8 @@
   "main": "test.js",
   "scripts": {
     "test": "tape './test.js'",
-    "coverage": "istanbul cover ./test.js"
+    "coverage": "istanbul cover ./test.js && ./node_modules/.bin/codecov -t 1999f578-04fb-47f4-a07d-c620110a9532",
+    "codecov": "./node_modules/.bin/codecov -t 1999f578-04fb-47f4-a07d-c620110a9532"
   },
   "repository": {
     "type": "git",
